@@ -6,13 +6,15 @@ import java.awt.image.BufferStrategy;
 
 public class Game extends Canvas implements Runnable, KeyListener {
 
-    public static int WIDTH = 1080, HEIGHT = 680;
+    public static int WIDTH = 982, HEIGHT = 480;
     public Player player;
+    public World world;
 
     public Game() {
         this.addKeyListener(this);
         this.setPreferredSize(new Dimension(WIDTH, HEIGHT));
-        player = new Player(0, 0);
+        player = new Player(32, 32);
+        world = new World();
     }
 
     public void tick() {
@@ -30,6 +32,7 @@ public class Game extends Canvas implements Runnable, KeyListener {
         graphics.setColor(Color.black);
         graphics.fillRect(0, 0, WIDTH, HEIGHT);
         player.render(graphics);
+        world.render(graphics);
 
         bufferStrategy.show();
     }
