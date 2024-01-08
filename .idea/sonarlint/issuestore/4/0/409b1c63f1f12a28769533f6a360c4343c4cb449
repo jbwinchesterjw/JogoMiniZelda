@@ -1,3 +1,27 @@
 
-]
-java:S2094"BRemove this empty class, write its code or make it an "interface".(Ã¼ûÿÿÿÿ
+t
+java:S1104"WMake spritesheet a static final constant or non-public and provide accessors if needed.(°³€É8Í™‘ÎÎ1
+z
+java:S1104"XMake player_front a static final constant or non-public and provide accessors if needed.(®ğò¨úÿÿÿÿ8Í™‘ÎÎ1
+q
+java:S1104
+"TMake tileWall a static final constant or non-public and provide accessors if needed.(Ûóô‹8Í™‘ÎÎ1
+N
+java:S1444"1Make this "public static spritesheet" field final(°³€É8Í™‘ÎÎ1
+T
+java:S1444"2Make this "public static player_front" field final(®ğò¨úÿÿÿÿ8Í™‘ÎÎ1
+K
+java:S1444
+".Make this "public static tileWall" field final(Ûóô‹8Î™‘ÎÎ1
+7
+java:S1700"Rename field "spritesheet"(°³€É8Î™‘ÎÎ1
+y
+java:S3008"WRename this field "player_front" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ğò¨úÿÿÿÿ8Ö™‘ÎÎ1
+:
+java:S1118"Hide this public constructor.(¸ı§³8Ø™‘ÎÎ1
+J
+java:S3010"(Remove this assignment of "spritesheet".(Ê¡Ä«ûÿÿÿÿ8Ù™‘ÎÎ1
+K
+java:S3010")Remove this assignment of "player_front".(èßÂ‹üÿÿÿÿ8Ù™‘ÎÎ1
+B
+java:S3010"%Remove this assignment of "tileWall".(Ö‚÷Û8Ù™‘ÎÎ1

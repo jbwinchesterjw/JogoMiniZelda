@@ -13,6 +13,7 @@ public class Game extends Canvas implements Runnable, KeyListener {
     public Game() {
         this.addKeyListener(this);
         this.setPreferredSize(new Dimension(WIDTH, HEIGHT));
+        new Spritesheet();
         player = new Player(32, 32);
         world = new World();
     }
@@ -29,7 +30,9 @@ public class Game extends Canvas implements Runnable, KeyListener {
         }
         Graphics graphics = bufferStrategy.getDrawGraphics();
 
-        graphics.setColor(Color.black);
+        graphics.setColor(new Color(0, 135, 13));
+
+        //graphics.setColor(Color.black);
         graphics.fillRect(0, 0, WIDTH, HEIGHT);
         player.render(graphics);
         world.render(graphics);
